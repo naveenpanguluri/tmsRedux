@@ -1,0 +1,38 @@
+.custom-box{
+    align-items: center;
+    cursor: pointer;
+    // word-break: break-all;
+
+    .title{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+    .title-logo{
+        width: 100%;
+        max-width: 70px;
+        height: auto;
+        margin: 5px auto;
+    }
+    .circle{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .txt-clr{
+        color: #194d96;
+    }
+    @media (max-width: 992px) {
+        .title{
+            text-align: center;
+        }
+    }
+    @media (max-width: 576px) {
+        .title{
+            text-align: left;
+        }
+    }
+}

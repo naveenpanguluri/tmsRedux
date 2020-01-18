@@ -1,0 +1,319 @@
+{
+    "routes": [
+        {
+            "name": "Dashboard",
+            "component": "dashboard",
+            "path": "/dashboard",
+            "exact": true,
+            "icon": "fas fa-chart-bar",
+            "showInSidebar": true,
+            "sidebarLink": "/dashboard"
+        },
+        {
+            "name": "Order",
+            "component": "order",
+            "path": "/order",
+            "exact": true,
+            "icon": "fas fa-box",
+            "showInSidebar": true,
+            "sidebarLink": "/order"
+        },
+        {
+            "name": "Track Order",
+            "component": "order/trackOrder",
+            "path": "/order/trackOrder",
+            "exact": true,
+            "icon": "fas fa-box",
+            "showInSidebar": false,
+            "sidebarLink": "/order/trackOrder"
+        },
+        {
+            "name": "Upload Order",
+            "component": "order/uploadOrder",
+            "path": "/order/uploadOrder",
+            "exact": true,
+            "icon": "fas fa-box",
+            "showInSidebar": false,
+            "sidebarLink": "/order/uploadOrder"
+        },
+        {
+            "name": "Create Order",
+            "component": "order/createOrder",
+            "path": "/order/createOrder",
+            "exact": true,
+            "icon": "fas fa-box",
+            "showInSidebar": false,
+            "sidebarLink": "/order/createOrder"
+        },
+        {
+            "name": "Maintain Order",
+            "component": "order/maintainOrder",
+            "path": "/order/maintainorder",
+            "exact": true,
+            "icon": "fas fa-box",
+            "showInSidebar": false,
+            "sidebarLink": "/order/maintainorder"
+        },
+        {
+            "name": "Create Packing Sheet",
+            "component": "order/createPackingSheet",
+            "path": "/order/createpackingsheet",
+            "exact": true,
+            "icon": "fas fa-box",
+            "showInSidebar": false,
+            "sidebarLink": "/order/createpackingsheet"
+        },
+        {
+            "name": "Master Data",
+            "component": "masterData",
+            "path": "/masterdata",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": true,
+            "sidebarLink": "/masterdata"
+        },
+        {
+            "name": "Maintain Expeditor",
+            "component": "masterData/maintainExpeditor",
+            "path": "/masterdata/maintainexpeditor",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/maintainexpeditor"
+        },
+        {
+            "name": "Create Expeditor",
+            "component": "masterData/createExpeditor",
+            "path": "/masterdata/createExpeditor",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/createExpeditor"
+        },
+        {
+            "name": "Maintain Vehicle",
+            "component": "masterData/maintainVehicle",
+            "path": "/masterdata/maintainvehicle",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/maintainvehicle"
+        },
+        {
+            "name": "Create Vehicle Pools",
+            "component": "masterData/createVehiclePools",
+            "path": "/masterdata/createVehiclePools",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/createVehiclePools"
+        },
+        {
+            "name": "Maintain Admin Trasporter",
+            "component": "masterData/maintainAdminTransporter",
+            "path": "/masterdata/maintainadmintransporter",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/maintainadmintransporter"
+        },
+        {
+            "name": "Create Admin Trasporter",
+            "component": "masterData/createAdminTransporter",
+            "path": "/masterdata/createAdminTransporter",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/createAdminTransporter"
+        },
+        {
+            "name": "Maintain Driver Trasporter",
+            "component": "masterData/maintainDriverTransporter",
+            "path": "/masterdata/maintaindrivertransporter",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/maintaindrivertransporter"
+        },
+        {
+            "name": "Create Driver Trasporter",
+            "component": "masterData/createDriverTransporter",
+            "path": "/masterdata/createDriverTransporter",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/createDriverTransporter"
+        },
+        {
+            "name": "Maintain Pools",
+            "component": "masterData/maintainPools",
+            "path": "/masterdata/maintainpools",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/maintainpools"
+        },
+        {
+            "name": "Create Pools",
+            "component": "masterData/createPools",
+            "path": "/masterdata/createPools",
+            "exact": true,
+            "icon": "fas fa-folder-open",
+            "showInSidebar": false,
+            "sidebarLink": "/masterdata/createPools"
+        },
+        {
+            "name": "Trip Management",
+            "component": "tripManagement",
+            "path": "/tripmanagement",
+            "exact": true,
+            "icon": "fas fa-map-marked-alt",
+            "showInSidebar": true,
+            "sidebarLink": "/tripmanagement"
+        },
+        {
+            "name": "Detail Order",
+            "component": "tripManagement/detailOrder",
+            "path": "/tripmanagement/detailOrder",
+            "exact": true,
+            "icon": "fas fa-map-marked-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/tripmanagement/detailOrder"
+        },
+        {
+            "name": "Gate to Gate",
+            "component": "gateToGate",
+            "path": "/gatetogate",
+            "exact": true,
+            "icon": "fas fa-hashtag",
+            "showInSidebar": true,
+            "sidebarLink": "/gatetogate"
+        },
+        {
+            "name": "Report",
+            "component": "report",
+            "path": "/report",
+            "exact": true,
+            "icon": "fas fa-file-alt",
+            "showInSidebar": true,
+            "sidebarLink": "/report"
+        },
+        {
+            "name": "Report Order Per Hari",
+            "component": "report/reportOrderPerHari",
+            "path": "/report/reportorderperhari",
+            "exact": true,
+            "icon": "fas fa-file-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/report/reportorderperhari"
+        },
+        {
+            "name": "Report Armada Muat Per Hari",
+            "component": "report/armadaMuatPerHari",
+            "path": "/report/armadamuatperhari",
+            "exact": true,
+            "icon": "fas fa-file-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/report/armadamuatperhari"
+        },
+        {
+            "name": "Report Armada Bongkar Per Hari",
+            "component": "report/armadaBongkarPerHari",
+            "path": "/report/armadabongkarperhari",
+            "exact": true,
+            "icon": "fas fa-file-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/report/armadabongkarperhari"
+        },
+        {
+            "name": "Report Board Admin",
+            "component": "report/boardAdmin",
+            "path": "/report/boardadmin",
+            "exact": true,
+            "icon": "fas fa-file-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/report/boardadmin"
+        },
+        {
+            "name": "ReportOrderProgress",
+            "component": "report/orderProgress",
+            "path": "/report/orderProgress/:tab",
+            "exact": true,
+            "icon": "fas fa-users",
+            "showInSidebar": false,
+            "sidebarLink": "/orderProgress/reportProgressOrder"
+        },
+        {
+            "name": "Invoice",
+            "component": "report/invoice",
+            "path": "/report/invoice",
+            "exact": true,
+            "icon": "fas fa-file-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/report/invoice"
+        },
+        {
+            "name": "Report GR vs Order",
+            "component": "report/GRvsOrder",
+            "path": "/report/GRvsOrder",
+            "exact": true,
+            "icon": "fas fa-file-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/report/GRvsOrder"
+        },
+        {
+            "name": "Report GI vs Order",
+            "component": "report/GIvsOrder",
+            "path": "/report/GIvsOrder",
+            "exact": true,
+            "icon": "fas fa-file-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/report/GIvsOrder"
+        },
+        {
+            "name": "Authorization",
+            "component": "authorization",
+            "path": "/authorization/:tab",
+            "exact": true,
+            "icon": "fas fa-users",
+            "showInSidebar": true,
+            "sidebarLink": "/authorization/userrole"
+        },
+        {
+            "name": "Notifications",
+            "component": "notifications",
+            "path": "/notifications",
+            "exact": true,
+            "icon": "fas fa-bell",
+            "showInSidebar": false,
+            "sidebarLink": "/notifications"
+        },
+        {
+            "name": "Profile",
+            "component": "profile",
+            "path": "/profile",
+            "exact": true,
+            "icon": "fas fa-bell",
+            "showInSidebar": false,
+            "sidebarLink": "/profile"
+        },
+        {
+            "name": "Change Password",
+            "component": "changePassword",
+            "path": "/changePassword",
+            "exact": true,
+            "icon": "fas fa-bell",
+            "showInSidebar": false,
+            "sidebarLink": "/changePassword"
+        },
+        {
+            "name": "Logout",
+            "component": "logout",
+            "path": "/logout",
+            "exact": true,
+            "icon": "fas fa-sign-out-alt",
+            "showInSidebar": false,
+            "sidebarLink": "/logout"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+.dashboard{
+    padding: 20px 0 20px 0;
+
+    .title{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .txt-clr{
+        color: #194d96;
+    }
+    .sky_bgclr{
+        background-color: #1790FF;
+    }
+    .dark_blue_bgclr{
+        background-color: #00539F;
+    }
+    .danger_bgclr{
+        background-color: #E60F00;
+    }
+    .dashboard_img{
+        position: absolute;
+        top: 10%;
+        bottom: 0;
+    }
+
+}

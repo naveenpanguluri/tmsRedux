@@ -1,0 +1,117 @@
+.Login{
+    height: 100vh;
+
+    header{
+        background-color: #fff;
+    }
+    .title_clr{
+        color: #194D96;
+    }
+    .login_box{
+        position: absolute;
+        background-color: #fff;
+        width: 500px;
+        height: 285px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        // left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    .btn_box{
+        position: absolute;
+        width: 500px;
+        height: 80px;
+        top: 210px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        z-index: 99;
+    }
+    input{
+        border: none !important;
+        border-radius: 20px !important;
+        padding: 10px 30px;
+        background-color: #f0f3f5 !important;
+        transition: none !important;
+    }
+    .bgbody_clr{
+        background-color: #f0f3f5;
+    }
+    .body_h{
+        height: calc(100% - 58px);
+    }
+    .login_btn{
+        background-color: #00539f;
+        border-radius: 20px;
+    }
+
+    @media (max-width: 1020px) {
+        header{
+            text-align: center;
+        }
+        .login_box{
+            width: 100%;
+            padding: 20px !important;
+        }
+        .logo{
+            text-align: center !important;
+        }
+    }
+
+    @media (max-width: 768px) {
+        header{
+            text-align: center;
+        }
+        .login_box{
+            position: static;
+            width: 460px;
+            height: auto;
+            margin-top: 30px;
+        }
+        .btn_box{
+            position: static;
+            width: 460px;
+            height: auto;
+        }
+        .logo{
+            text-align: center !important;
+        }
+        .body_h{
+            height: 100%;
+        }
+        .mbl_padd{
+            padding: 0 !important;
+        }
+    }
+
+    @media (max-width: 512px) {
+        header{
+            text-align: center;
+        }
+        .login_box{
+            position: static;
+            width: 100% !important;
+            height: auto;
+            margin: 30px 0;
+            padding: 20px !important;
+        }
+        .btn_box{
+            position: static;
+            width: 100% !important;
+            height: auto;
+        }
+        .logo{
+            text-align: center !important;
+        }
+        .body_h{
+            height: 100%;
+        }
+        .mbl_padd{
+            padding: 0 !important;
+        }
+    }
+
+}
