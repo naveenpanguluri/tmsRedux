@@ -19,7 +19,7 @@
     "recharts": "^1.6.2",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "xlsx": "^0.14.3"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
